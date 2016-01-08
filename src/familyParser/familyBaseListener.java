@@ -55,13 +55,25 @@ public class familyBaseListener implements familyListener {
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void enterSpouse(familyParser.SpouseContext ctx) { }
+  @Override public void enterWife(familyParser.WifeContext ctx) { }
   /**
    * {@inheritDoc}
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void exitSpouse(familyParser.SpouseContext ctx) { }
+  @Override public void exitWife(familyParser.WifeContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterHusband(familyParser.HusbandContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitHusband(familyParser.HusbandContext ctx) { }
   /**
    * {@inheritDoc}
    *
@@ -86,6 +98,18 @@ public class familyBaseListener implements familyListener {
    * <p>The default implementation does nothing.</p>
    */
   @Override public void exitName(familyParser.NameContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterChild(familyParser.ChildContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitChild(familyParser.ChildContext ctx) { }
   /**
    * {@inheritDoc}
    *

@@ -41,15 +41,25 @@ public interface familyListener extends ParseTreeListener {
    */
   void exitPerson(familyParser.PersonContext ctx);
   /**
-   * Enter a parse tree produced by {@link familyParser#spouse}.
+   * Enter a parse tree produced by {@link familyParser#wife}.
    * @param ctx the parse tree
    */
-  void enterSpouse(familyParser.SpouseContext ctx);
+  void enterWife(familyParser.WifeContext ctx);
   /**
-   * Exit a parse tree produced by {@link familyParser#spouse}.
+   * Exit a parse tree produced by {@link familyParser#wife}.
    * @param ctx the parse tree
    */
-  void exitSpouse(familyParser.SpouseContext ctx);
+  void exitWife(familyParser.WifeContext ctx);
+  /**
+   * Enter a parse tree produced by {@link familyParser#husband}.
+   * @param ctx the parse tree
+   */
+  void enterHusband(familyParser.HusbandContext ctx);
+  /**
+   * Exit a parse tree produced by {@link familyParser#husband}.
+   * @param ctx the parse tree
+   */
+  void exitHusband(familyParser.HusbandContext ctx);
   /**
    * Enter a parse tree produced by {@link familyParser#children}.
    * @param ctx the parse tree
@@ -70,6 +80,16 @@ public interface familyListener extends ParseTreeListener {
    * @param ctx the parse tree
    */
   void exitName(familyParser.NameContext ctx);
+  /**
+   * Enter a parse tree produced by {@link familyParser#child}.
+   * @param ctx the parse tree
+   */
+  void enterChild(familyParser.ChildContext ctx);
+  /**
+   * Exit a parse tree produced by {@link familyParser#child}.
+   * @param ctx the parse tree
+   */
+  void exitChild(familyParser.ChildContext ctx);
   /**
    * Enter a parse tree produced by {@link familyParser#comment}.
    * @param ctx the parse tree

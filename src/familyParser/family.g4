@@ -7,15 +7,17 @@ grammar family;
 import Configuration;
 root: tree;
 tree: person+;
-person: name spouse? children? '\n';
-spouse: 'S:' name;
-children: 'C:' name (','name)*;
+person: (husband wife | wife husband) children? '\n';
+wife: 'W:' name;
+husband: 'H:' name;
+children: 'C:' child (','child)*;
 name: CHAR+;
-CHAR: [a-zA-Z];
+child: CHAR+;
+CHAR: [a-zA-Z]|' ';
 
 
 comment :  '%' ~('\n')+ NEWLINE;
 NEWLINE :  ('\n' | '\r' '\n'?);
 DIGIT :  [0-9]+;
-
+SPACE : ' ';
 PLUS: '+';

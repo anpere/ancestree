@@ -1,0 +1,91 @@
+graph G{
+"vicente montoya X"--"belarmina X X";
+"vicente montoya X"--"sofia montoya X";
+"vicente montoya X"--"mario montoya X";
+"vicente montoya X"--"graciela montoya X";
+"vicente montoya X"--"ligia montoya X";
+{rank = same;"vicente montoya X";"belarmina X X";}
+"alfredo lastra santrich"--"graciela montoya X";
+"alfredo lastra santrich"--"tere lastra montoya";
+"alfredo lastra santrich"--"juan nepomuseno lastra montoya";
+"alfredo lastra santrich"--"vicente lastra montoya";
+"alfredo lastra santrich"--"blacina lastra montoya";
+"alfredo lastra santrich"--"alvaro lastra montoya";
+"alfredo lastra santrich"--"luz lastra montoya";
+{rank = same;"alfredo lastra santrich";"graciela montoya X";}
+"horacio velez restrepo"--"carlota ocampo orozco";
+"horacio velez restrepo"--"libia velez ocampo";
+"horacio velez restrepo"--"gustavo velez ocampo";
+"horacio velez restrepo"--"rosalena velez ocampo";
+"horacio velez restrepo"--"blanca lucia velez ocampo";
+"horacio velez restrepo"--"dario velez ocampo";
+{rank = same;"horacio velez restrepo";"carlota ocampo orozco";}
+"francisco ocampo X"--"anita orozco X";
+"francisco ocampo X"--"maruja ocampo orozco";
+"francisco ocampo X"--"francisco ocampo orozco";
+"francisco ocampo X"--"carlota ocampo orozco";
+"francisco ocampo X"--"carmen  ocampo orozco";
+{rank = same;"francisco ocampo X";"anita orozco X";}
+"juan nepomuseno lastra montoya"--"libia velez ocampo";
+"juan nepomuseno lastra montoya"--"vicky lastra velez";
+"juan nepomuseno lastra montoya"--"juan carlos lastra velez";
+"juan nepomuseno lastra montoya"--"beatriz lastra velez";
+"juan nepomuseno lastra montoya"--"cecilia lastra velez";
+{rank = same;"juan nepomuseno lastra montoya";"libia velez ocampo";}
+"hector guerra sierla"--"vicky lastra velez";
+"hector guerra sierla"--"daniela guerra lastra";
+"hector guerra sierla"--"alejandra guerra lastra";
+{rank = same;"hector guerra sierla";"vicky lastra velez";}
+"daniela guerra lastra"--"fabian martin";
+{rank = same;"daniela guerra lastra";"fabian martin";}
+"morgan baron"--"alejandra guerra lastra";
+{rank = same;"morgan baron";"alejandra guerra lastra";}
+"alberto chacon fernandez"--"beatriz lastra velez";
+"alberto chacon fernandez"--"lina chacon lastra";
+"alberto chacon fernandez"--" laura chacon lastra";
+"alberto chacon fernandez"--" mariana chacon lastra";
+{rank = same;"alberto chacon fernandez";"beatriz lastra velez";}
+"armando perez restrepo"--"cecilia lastra velez";
+"armando perez restrepo"--"andres perez lastra";
+"armando perez restrepo"--" santiago  perez lastra";
+{rank = same;"armando perez restrepo";"cecilia lastra velez";}
+"juan carlos lastra velez"--"amparo sossa cardena";
+"juan carlos lastra velez"--"natalia lastra sossa";
+"juan carlos lastra velez"--" juan fernando lastra sossa";
+"juan carlos lastra velez"--" melisa lastra sossa";
+{rank = same;"juan carlos lastra velez";"amparo sossa cardena";}
+"jesus perez perez"--"rosa restrepo mesa";
+"jesus perez perez"--"marina perez restrepo";
+"jesus perez perez"--"albeiro perez restrepo";
+"jesus perez perez"--"lucidia perez restrepo";
+"jesus perez perez"--"alba perez restrepo";
+"jesus perez perez"--"beatriz perez restrepo";
+"jesus perez perez"--"armando perez restrepo";
+"jesus perez perez"--"oscar perez restrepo";
+"jesus perez perez"--"veronica perez restrepo";
+"jesus perez perez"--"carlos perez restrepo";
+"jesus perez perez"--"marcos perez restrepo";
+"jesus perez perez"--"jairo  perez restrepo";
+{rank = same;"jesus perez perez";"rosa restrepo mesa";}
+"oscar perez perez"--"julia perez villegasX";
+"oscar perez perez"--"jesus perez perez";
+"oscar perez perez"--"angel perez perez";
+"oscar perez perez"--"leocaido perez perez";
+"oscar perez perez"--"alicia perez perez";
+"oscar perez perez"--"erenstina perez perez";
+"oscar perez perez"--"ines perez perez";
+"oscar perez perez"--"margarita perez perez";
+"oscar perez perez"--"rosa perez perez";
+"oscar perez perez"--"elbia perez perez";
+"oscar perez perez"--"jidaro perez perez";
+{rank = same;"oscar perez perez";"julia perez villegasX";}
+"epifanio restrepo X"--"ester mesa X ";
+"epifanio restrepo X"--"rosa restrepo mesa";
+"epifanio restrepo X"--"samuel restrepo mesa";
+"epifanio restrepo X"--"libia restrepo mesa";
+"epifanio restrepo X"--"laura restrepo mesa";
+"epifanio restrepo X"--"julia restrepo mesa";
+"epifanio restrepo X"--"franca restrepo mesa";
+{rank = same;"epifanio restrepo X";"ester mesa X ";}
+
+}
